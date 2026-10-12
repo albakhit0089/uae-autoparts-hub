@@ -178,7 +178,7 @@ async def import_file(file: UploadFile = File(...), s: Supplier = Depends(curren
     try:
         rows = read_upload(file.filename or "upload.csv", data)
     except (ValueError, UnicodeDecodeError) as e:
-        raise HTTPException(422, f"Could not read file: {e}")
+        raise HTTPException(422, f"Could not read file: {e}") from e
     if len(rows) > 5000:
         raise HTTPException(422, "Maximum 5,000 rows per file")
     return import_out(_apply_import(db, s, file.filename or "upload", rows))

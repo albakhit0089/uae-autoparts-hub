@@ -10,7 +10,6 @@ rule-based parser.
 from __future__ import annotations
 
 import logging
-from typing import Optional
 
 from pydantic import BaseModel
 
@@ -22,15 +21,15 @@ log = logging.getLogger("llm")
 
 
 class Extracted(BaseModel):
-    make_id: Optional[str] = None
-    model_id: Optional[str] = None
-    year: Optional[int] = None
-    engine_code: Optional[str] = None
-    part_type_id: Optional[str] = None
-    emirate_id: Optional[str] = None
-    max_price_aed: Optional[int] = None
-    oem_number: Optional[str] = None
-    condition: Optional[str] = None
+    make_id: str | None = None
+    model_id: str | None = None
+    year: int | None = None
+    engine_code: str | None = None
+    part_type_id: str | None = None
+    emirate_id: str | None = None
+    max_price_aed: int | None = None
+    oem_number: str | None = None
+    condition: str | None = None
 
 
 def _catalog_brief() -> str:

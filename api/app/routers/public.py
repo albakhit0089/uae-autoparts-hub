@@ -90,7 +90,7 @@ def search(
     outs = parts_out(db, parts)
     results = [
         {"part": o, "score": s, "compatibility": assess_compatibility(p, a.get("make"), a.get("model"), a.get("year"), a.get("engine"), a.get("oem"))}
-        for (s, p), o in zip(scored, outs)
+        for (s, p), o in zip(scored, outs, strict=True)
     ]
     return {"results": results, "parsed": parsed.__dict__ if parsed else None, "applied": {k: v for k, v in a.items() if v is not None},
             "suppliers": suppliers_map(db, {p.supplier_id for p in parts})}

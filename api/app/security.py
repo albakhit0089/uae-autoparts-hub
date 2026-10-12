@@ -49,7 +49,7 @@ def optional_user(creds: HTTPAuthorizationCredentials | None = Depends(bearer), 
     try:
         payload = jwt.decode(creds.credentials, get_settings().jwt_secret, algorithms=["HS256"])
     except jwt.PyJWTError:
-        raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Session expired, please log in again")
+        raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Session expired, please log in again") from None
     user = db.get(User, payload.get("sub"))
     if not user or user.deleted_at:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Account not found")
