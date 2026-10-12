@@ -22,19 +22,30 @@ DEMO_PASSWORD = "Demo@1234"
 
 def load_reference(db: Session) -> None:
     c = catalog()
+    # Models have no ORM relationships, so flush each level before its children to satisfy foreign keys.
     for m in c["makes"]:
         db.merge(Make(id=m["id"], name=m["name"], name_ar=m["nameAr"], aliases=m["aliases"]))
+    db.flush()
+    for m in c["makes"]:
         for md in m["models"]:
-            mid = f"{m['id']}/{md['id']}"
-            db.merge(Model(id=mid, make_id=m["id"], slug=md["id"], name=md["name"], name_ar=md["nameAr"], aliases=md.get("aliases", [])))
+            db.merge(Model(id=f"{m['id']}/{md['id']}", make_id=m["id"], slug=md["id"], name=md["name"], name_ar=md["nameAr"], aliases=md.get("aliases", [])))
+    db.flush()
+    for m in c["makes"]:
+        for md in m["models"]:
             for g in md["generations"]:
-                gid = f"{mid}/{g['code']}"
-                db.merge(Generation(id=gid, model_id=mid, code=g["code"], year_from=g["yearFrom"], year_to=g["yearTo"]))
+                db.merge(Generation(id=f"{m['id']}/{md['id']}/{g['code']}", model_id=f"{m['id']}/{md['id']}", code=g["code"], year_from=g["yearFrom"], year_to=g["yearTo"]))
+    db.flush()
+    for m in c["makes"]:
+        for md in m["models"]:
+            for g in md["generations"]:
+                gid = f"{m['id']}/{md['id']}/{g['code']}"
                 for v in g["variants"]:
                     db.merge(Variant(id=f"{gid}/{v['id']}", generation_id=gid, name=v["name"], engine_code=v["engineCode"],
                                      capacity_l=v["capacity"], fuel=v["fuel"], transmission=v["transmission"], source="seed"))
     for cat in c["categories"]:
         db.merge(PartCategory(id=cat["id"], name=cat["en"], name_ar=cat["ar"]))
+    db.flush()
+    for cat in c["categories"]:
         for t in cat["types"]:
             db.merge(PartType(id=t["id"], category_id=cat["id"], name=t["en"], name_ar=t["ar"], synonyms=t["synonyms"],
                               safety_critical=bool(t.get("safetyCritical"))))
@@ -72,6 +83,7 @@ def load_demo(db: Session) -> dict:
             makes=s["makes"], categories=s["categories"], status=s["status"], delivery=s["delivery"], featured=s["featured"],
             plan=s["plan"], is_sample=True, created_at=_dt(s["createdAt"], shift),
         ))
+        db.flush()
         for d in s["docs"]:
             db.add(SupplierDocument(supplier_id=s["id"], name=d["name"], kind=d["kind"], size_kb=d["sizeKb"]))
     db.flush()
