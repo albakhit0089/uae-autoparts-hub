@@ -57,8 +57,10 @@ def resolve_part_type(v: str) -> dict | None:
 
 
 def _int(v, default=None):
+    if v is None or str(v).strip() == "":
+        return default
     try:
-        return int(float(str(v).replace(",", ""))) if str(v).strip() != "" else default
+        return int(float(str(v).replace(",", "")))
     except ValueError:
         return None
 

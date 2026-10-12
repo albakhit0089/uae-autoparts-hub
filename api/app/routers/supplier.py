@@ -160,6 +160,7 @@ def _apply_import(db: Session, s: Supplier, filename: str, rows: list[dict], sou
     job = ImportJob(supplier_id=s.id, filename=filename[:200], total=plan.total, created=len(plan.create), updated=len(plan.update),
                     duplicates=plan.duplicates, errors=plan.errors)
     db.add(job)
+    db.flush()
     audit(db, s.owner_id, "inventory.import", job.id, source=source)
     db.commit()
     return job
