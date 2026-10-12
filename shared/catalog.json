@@ -1,0 +1,1985 @@
+{
+ "version": 1,
+ "makes": [
+  {
+   "id": "toyota",
+   "name": "Toyota",
+   "nameAr": "تويوتا",
+   "aliases": [
+    "toyta",
+    "تيوتا"
+   ],
+   "models": [
+    {
+     "id": "land-cruiser",
+     "name": "Land Cruiser",
+     "nameAr": "لاندكروزر",
+     "aliases": [
+      "landcruiser",
+      "lc200",
+      "lc300",
+      "لاند كروزر",
+      "لاندكروزر"
+     ],
+     "generations": [
+      {
+       "code": "J200",
+       "yearFrom": 2008,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "land-cruiser-j200-gxr-4-6",
+         "name": "GXR 4.6",
+         "engineCode": "1UR-FE",
+         "capacity": 4.6,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "land-cruiser-j200-vxr-5-7",
+         "name": "VXR 5.7",
+         "engineCode": "3UR-FE",
+         "capacity": 5.7,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "J300",
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "land-cruiser-j300-gxr-3-5tt",
+         "name": "GXR 3.5TT",
+         "engineCode": "V35A-FTS",
+         "capacity": 3.5,
+         "transmission": "10-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "camry",
+     "name": "Camry",
+     "nameAr": "كامري",
+     "aliases": [
+      "كامري"
+     ],
+     "generations": [
+      {
+       "code": "XV50",
+       "yearFrom": 2012,
+       "yearTo": 2017,
+       "variants": [
+        {
+         "id": "camry-xv50-2-5-s",
+         "name": "2.5 S",
+         "engineCode": "2AR-FE",
+         "capacity": 2.5,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "camry-xv50-3-5-v6",
+         "name": "3.5 V6",
+         "engineCode": "2GR-FE",
+         "capacity": 3.5,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "XV70",
+       "yearFrom": 2018,
+       "yearTo": 2024,
+       "variants": [
+        {
+         "id": "camry-xv70-2-5",
+         "name": "2.5",
+         "engineCode": "A25A-FKS",
+         "capacity": 2.5,
+         "transmission": "8-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "camry-xv70-3-5-v6",
+         "name": "3.5 V6",
+         "engineCode": "2GR-FKS",
+         "capacity": 3.5,
+         "transmission": "8-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "corolla",
+     "name": "Corolla",
+     "nameAr": "كورولا",
+     "aliases": [
+      "كورولا"
+     ],
+     "generations": [
+      {
+       "code": "E170",
+       "yearFrom": 2014,
+       "yearTo": 2019,
+       "variants": [
+        {
+         "id": "corolla-e170-1-6",
+         "name": "1.6",
+         "engineCode": "1ZR-FE",
+         "capacity": 1.6,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "corolla-e170-2-0",
+         "name": "2.0",
+         "engineCode": "3ZR-FE",
+         "capacity": 2,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "E210",
+       "yearFrom": 2019,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "corolla-e210-1-6",
+         "name": "1.6",
+         "engineCode": "1ZR-FAE",
+         "capacity": 1.6,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "corolla-e210-1-8-hybrid",
+         "name": "1.8 Hybrid",
+         "engineCode": "2ZR-FXE",
+         "capacity": 1.8,
+         "transmission": "e-CVT",
+         "fuel": "hybrid"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "prado",
+     "name": "Land Cruiser Prado",
+     "nameAr": "برادو",
+     "aliases": [
+      "prado",
+      "برادو"
+     ],
+     "generations": [
+      {
+       "code": "J150",
+       "yearFrom": 2010,
+       "yearTo": 2023,
+       "variants": [
+        {
+         "id": "prado-j150-2-7",
+         "name": "2.7",
+         "engineCode": "2TR-FE",
+         "capacity": 2.7,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "prado-j150-4-0-v6",
+         "name": "4.0 V6",
+         "engineCode": "1GR-FE",
+         "capacity": 4,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hilux",
+     "name": "Hilux",
+     "nameAr": "هايلكس",
+     "aliases": [
+      "هايلكس"
+     ],
+     "generations": [
+      {
+       "code": "AN120",
+       "yearFrom": 2016,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "hilux-an120-2-7",
+         "name": "2.7",
+         "engineCode": "2TR-FE",
+         "capacity": 2.7,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "hilux-an120-2-8d",
+         "name": "2.8D",
+         "engineCode": "1GD-FTV",
+         "capacity": 2.8,
+         "transmission": "6-speed automatic",
+         "fuel": "diesel"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "yaris",
+     "name": "Yaris",
+     "nameAr": "يارس",
+     "aliases": [
+      "يارس"
+     ],
+     "generations": [
+      {
+       "code": "XP150",
+       "yearFrom": 2014,
+       "yearTo": 2022,
+       "variants": [
+        {
+         "id": "yaris-xp150-1-5",
+         "name": "1.5",
+         "engineCode": "2NR-FE",
+         "capacity": 1.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nissan",
+   "name": "Nissan",
+   "nameAr": "نيسان",
+   "aliases": [
+    "nisan"
+   ],
+   "models": [
+    {
+     "id": "patrol",
+     "name": "Patrol",
+     "nameAr": "باترول",
+     "aliases": [
+      "باترول",
+      "بترول"
+     ],
+     "generations": [
+      {
+       "code": "Y62",
+       "yearFrom": 2010,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "patrol-y62-le-5-6",
+         "name": "LE 5.6",
+         "engineCode": "VK56VD",
+         "capacity": 5.6,
+         "transmission": "7-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "patrol-y62-se-4-0",
+         "name": "SE 4.0",
+         "engineCode": "VQ40DE",
+         "capacity": 4,
+         "transmission": "7-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "altima",
+     "name": "Altima",
+     "nameAr": "التيما",
+     "aliases": [
+      "التيما"
+     ],
+     "generations": [
+      {
+       "code": "L33",
+       "yearFrom": 2013,
+       "yearTo": 2018,
+       "variants": [
+        {
+         "id": "altima-l33-2-5",
+         "name": "2.5",
+         "engineCode": "QR25DE",
+         "capacity": 2.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "altima-l33-3-5",
+         "name": "3.5",
+         "engineCode": "VQ35DE",
+         "capacity": 3.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "L34",
+       "yearFrom": 2019,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "altima-l34-2-5",
+         "name": "2.5",
+         "engineCode": "PR25DD",
+         "capacity": 2.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sunny",
+     "name": "Sunny",
+     "nameAr": "صني",
+     "aliases": [
+      "صني"
+     ],
+     "generations": [
+      {
+       "code": "N17",
+       "yearFrom": 2012,
+       "yearTo": 2019,
+       "variants": [
+        {
+         "id": "sunny-n17-1-5",
+         "name": "1.5",
+         "engineCode": "HR15DE",
+         "capacity": 1.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x-trail",
+     "name": "X-Trail",
+     "nameAr": "اكس تريل",
+     "aliases": [
+      "xtrail"
+     ],
+     "generations": [
+      {
+       "code": "T32",
+       "yearFrom": 2014,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "x-trail-t32-2-5",
+         "name": "2.5",
+         "engineCode": "QR25DE",
+         "capacity": 2.5,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mercedes-benz",
+   "name": "Mercedes-Benz",
+   "nameAr": "مرسيدس",
+   "aliases": [
+    "mercedes",
+    "merc",
+    "benz",
+    "mercedez",
+    "مرسيدس",
+    "مارسيدس"
+   ],
+   "models": [
+    {
+     "id": "c-class",
+     "name": "C-Class",
+     "nameAr": "سي كلاس",
+     "aliases": [
+      "c class",
+      "cclass",
+      "c200",
+      "c300",
+      "c250",
+      "سي كلاس"
+     ],
+     "generations": [
+      {
+       "code": "W204",
+       "yearFrom": 2008,
+       "yearTo": 2014,
+       "variants": [
+        {
+         "id": "c-class-w204-c200",
+         "name": "C200",
+         "engineCode": "M271",
+         "capacity": 1.8,
+         "transmission": "7G-Tronic (722.9)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "c-class-w204-c300",
+         "name": "C300",
+         "engineCode": "M272",
+         "capacity": 3,
+         "transmission": "7G-Tronic (722.9)",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "W205",
+       "yearFrom": 2015,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "c-class-w205-c200",
+         "name": "C200",
+         "engineCode": "M274",
+         "capacity": 2,
+         "transmission": "7G-Tronic Plus (722.9)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "c-class-w205-c300",
+         "name": "C300",
+         "engineCode": "M274",
+         "capacity": 2,
+         "transmission": "9G-Tronic (725.0)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "c-class-w205-c43-amg",
+         "name": "C43 AMG",
+         "engineCode": "M276",
+         "capacity": 3,
+         "transmission": "9G-Tronic (725.0)",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "W206",
+       "yearFrom": 2022,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "c-class-w206-c200",
+         "name": "C200",
+         "engineCode": "M254",
+         "capacity": 1.5,
+         "transmission": "9G-Tronic (725.0)",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e-class",
+     "name": "E-Class",
+     "nameAr": "اي كلاس",
+     "aliases": [
+      "e class",
+      "e200",
+      "e300",
+      "e350"
+     ],
+     "generations": [
+      {
+       "code": "W212",
+       "yearFrom": 2010,
+       "yearTo": 2016,
+       "variants": [
+        {
+         "id": "e-class-w212-e300",
+         "name": "E300",
+         "engineCode": "M272",
+         "capacity": 3.5,
+         "transmission": "7G-Tronic (722.9)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "e-class-w212-e350",
+         "name": "E350",
+         "engineCode": "M276",
+         "capacity": 3.5,
+         "transmission": "7G-Tronic (722.9)",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "W213",
+       "yearFrom": 2017,
+       "yearTo": 2023,
+       "variants": [
+        {
+         "id": "e-class-w213-e200",
+         "name": "E200",
+         "engineCode": "M264",
+         "capacity": 2,
+         "transmission": "9G-Tronic (725.0)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "e-class-w213-e300",
+         "name": "E300",
+         "engineCode": "M264",
+         "capacity": 2,
+         "transmission": "9G-Tronic (725.0)",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-class",
+     "name": "S-Class",
+     "nameAr": "اس كلاس",
+     "aliases": [
+      "s class",
+      "s500",
+      "s400"
+     ],
+     "generations": [
+      {
+       "code": "W222",
+       "yearFrom": 2014,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "s-class-w222-s400",
+         "name": "S400",
+         "engineCode": "M276",
+         "capacity": 3,
+         "transmission": "7G-Tronic Plus (722.9)",
+         "fuel": "petrol"
+        },
+        {
+         "id": "s-class-w222-s500",
+         "name": "S500",
+         "engineCode": "M278",
+         "capacity": 4.7,
+         "transmission": "7G-Tronic Plus (722.9)",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g-class",
+     "name": "G-Class",
+     "nameAr": "جي كلاس",
+     "aliases": [
+      "g63",
+      "g class"
+     ],
+     "generations": [
+      {
+       "code": "W463",
+       "yearFrom": 2012,
+       "yearTo": 2018,
+       "variants": [
+        {
+         "id": "g-class-w463-g63-amg",
+         "name": "G63 AMG",
+         "engineCode": "M157",
+         "capacity": 5.5,
+         "transmission": "AMG Speedshift 7G",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bmw",
+   "name": "BMW",
+   "nameAr": "بي ام دبليو",
+   "aliases": [
+    "بي ام",
+    "بي إم دبليو",
+    "بيم"
+   ],
+   "models": [
+    {
+     "id": "3-series",
+     "name": "3 Series",
+     "nameAr": "الفئة الثالثة",
+     "aliases": [
+      "320i",
+      "330i",
+      "328i"
+     ],
+     "generations": [
+      {
+       "code": "F30",
+       "yearFrom": 2012,
+       "yearTo": 2018,
+       "variants": [
+        {
+         "id": "3-series-f30-320i",
+         "name": "320i",
+         "engineCode": "N20B20",
+         "capacity": 2,
+         "transmission": "ZF 8HP45",
+         "fuel": "petrol"
+        },
+        {
+         "id": "3-series-f30-328i",
+         "name": "328i",
+         "engineCode": "N20B20",
+         "capacity": 2,
+         "transmission": "ZF 8HP45",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "G20",
+       "yearFrom": 2019,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "3-series-g20-330i",
+         "name": "330i",
+         "engineCode": "B48B20",
+         "capacity": 2,
+         "transmission": "ZF 8HP51",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "5-series",
+     "name": "5 Series",
+     "nameAr": "الفئة الخامسة",
+     "aliases": [
+      "520i",
+      "535i",
+      "530i"
+     ],
+     "generations": [
+      {
+       "code": "F10",
+       "yearFrom": 2010,
+       "yearTo": 2016,
+       "variants": [
+        {
+         "id": "5-series-f10-520i",
+         "name": "520i",
+         "engineCode": "N20B20",
+         "capacity": 2,
+         "transmission": "ZF 8HP45",
+         "fuel": "petrol"
+        },
+        {
+         "id": "5-series-f10-535i",
+         "name": "535i",
+         "engineCode": "N55B30",
+         "capacity": 3,
+         "transmission": "ZF 8HP70",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "G30",
+       "yearFrom": 2017,
+       "yearTo": 2023,
+       "variants": [
+        {
+         "id": "5-series-g30-530i",
+         "name": "530i",
+         "engineCode": "B46B20",
+         "capacity": 2,
+         "transmission": "ZF 8HP50",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "x5",
+     "name": "X5",
+     "nameAr": "اكس 5",
+     "aliases": [],
+     "generations": [
+      {
+       "code": "F15",
+       "yearFrom": 2014,
+       "yearTo": 2018,
+       "variants": [
+        {
+         "id": "x5-f15-xdrive35i",
+         "name": "xDrive35i",
+         "engineCode": "N55B30",
+         "capacity": 3,
+         "transmission": "ZF 8HP70",
+         "fuel": "petrol"
+        },
+        {
+         "id": "x5-f15-xdrive50i",
+         "name": "xDrive50i",
+         "engineCode": "N63B44",
+         "capacity": 4.4,
+         "transmission": "ZF 8HP70",
+         "fuel": "petrol"
+        }
+       ]
+      },
+      {
+       "code": "G05",
+       "yearFrom": 2019,
+       "yearTo": 2025,
+       "variants": [
+        {
+         "id": "x5-g05-xdrive40i",
+         "name": "xDrive40i",
+         "engineCode": "B58B30",
+         "capacity": 3,
+         "transmission": "ZF 8HP76",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lexus",
+   "name": "Lexus",
+   "nameAr": "لكزس",
+   "aliases": [
+    "lexsus",
+    "لكسز"
+   ],
+   "models": [
+    {
+     "id": "lx",
+     "name": "LX",
+     "nameAr": "ال اكس",
+     "aliases": [
+      "lx570"
+     ],
+     "generations": [
+      {
+       "code": "J200",
+       "yearFrom": 2008,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "lx-j200-lx570",
+         "name": "LX570",
+         "engineCode": "3UR-FE",
+         "capacity": 5.7,
+         "transmission": "8-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "es",
+     "name": "ES",
+     "nameAr": "اي اس",
+     "aliases": [
+      "es350",
+      "es250"
+     ],
+     "generations": [
+      {
+       "code": "XV60",
+       "yearFrom": 2013,
+       "yearTo": 2018,
+       "variants": [
+        {
+         "id": "es-xv60-es350",
+         "name": "ES350",
+         "engineCode": "2GR-FE",
+         "capacity": 3.5,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "es-xv60-es250",
+         "name": "ES250",
+         "engineCode": "2AR-FE",
+         "capacity": 2.5,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "rx",
+     "name": "RX",
+     "nameAr": "ار اكس",
+     "aliases": [
+      "rx350"
+     ],
+     "generations": [
+      {
+       "code": "AL20",
+       "yearFrom": 2016,
+       "yearTo": 2022,
+       "variants": [
+        {
+         "id": "rx-al20-rx350",
+         "name": "RX350",
+         "engineCode": "2GR-FKS",
+         "capacity": 3.5,
+         "transmission": "8-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hyundai",
+   "name": "Hyundai",
+   "nameAr": "هيونداي",
+   "aliases": [
+    "hundai",
+    "hyndai",
+    "هونداي"
+   ],
+   "models": [
+    {
+     "id": "elantra",
+     "name": "Elantra",
+     "nameAr": "النترا",
+     "aliases": [
+      "النترا"
+     ],
+     "generations": [
+      {
+       "code": "AD",
+       "yearFrom": 2016,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "elantra-ad-2-0",
+         "name": "2.0",
+         "engineCode": "G4NA",
+         "capacity": 2,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sonata",
+     "name": "Sonata",
+     "nameAr": "سوناتا",
+     "aliases": [
+      "سوناتا"
+     ],
+     "generations": [
+      {
+       "code": "LF",
+       "yearFrom": 2015,
+       "yearTo": 2019,
+       "variants": [
+        {
+         "id": "sonata-lf-2-4",
+         "name": "2.4",
+         "engineCode": "G4KJ",
+         "capacity": 2.4,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tucson",
+     "name": "Tucson",
+     "nameAr": "توسان",
+     "aliases": [
+      "توسان"
+     ],
+     "generations": [
+      {
+       "code": "TL",
+       "yearFrom": 2016,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "tucson-tl-2-0",
+         "name": "2.0",
+         "engineCode": "G4NA",
+         "capacity": 2,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kia",
+   "name": "Kia",
+   "nameAr": "كيا",
+   "aliases": [],
+   "models": [
+    {
+     "id": "sportage",
+     "name": "Sportage",
+     "nameAr": "سبورتاج",
+     "aliases": [
+      "سبورتاج"
+     ],
+     "generations": [
+      {
+       "code": "QL",
+       "yearFrom": 2016,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "sportage-ql-2-4",
+         "name": "2.4",
+         "engineCode": "G4KJ",
+         "capacity": 2.4,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "optima",
+     "name": "Optima / K5",
+     "nameAr": "اوبتيما",
+     "aliases": [
+      "optima",
+      "k5"
+     ],
+     "generations": [
+      {
+       "code": "JF",
+       "yearFrom": 2016,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "optima-jf-2-4",
+         "name": "2.4",
+         "engineCode": "G4KJ",
+         "capacity": 2.4,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ford",
+   "name": "Ford",
+   "nameAr": "فورد",
+   "aliases": [],
+   "models": [
+    {
+     "id": "f-150",
+     "name": "F-150",
+     "nameAr": "اف 150",
+     "aliases": [
+      "f150"
+     ],
+     "generations": [
+      {
+       "code": "P552",
+       "yearFrom": 2015,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "f-150-p552-3-5-ecoboost",
+         "name": "3.5 EcoBoost",
+         "engineCode": "3.5 EcoBoost",
+         "capacity": 3.5,
+         "transmission": "10R80",
+         "fuel": "petrol"
+        },
+        {
+         "id": "f-150-p552-5-0-v8",
+         "name": "5.0 V8",
+         "engineCode": "Coyote",
+         "capacity": 5,
+         "transmission": "6R80",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "explorer",
+     "name": "Explorer",
+     "nameAr": "اكسبلورر",
+     "aliases": [],
+     "generations": [
+      {
+       "code": "U502",
+       "yearFrom": 2011,
+       "yearTo": 2019,
+       "variants": [
+        {
+         "id": "explorer-u502-3-5-v6",
+         "name": "3.5 V6",
+         "engineCode": "Cyclone",
+         "capacity": 3.5,
+         "transmission": "6F55",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mustang",
+     "name": "Mustang",
+     "nameAr": "موستنج",
+     "aliases": [
+      "موستنق"
+     ],
+     "generations": [
+      {
+       "code": "S550",
+       "yearFrom": 2015,
+       "yearTo": 2023,
+       "variants": [
+        {
+         "id": "mustang-s550-gt-5-0",
+         "name": "GT 5.0",
+         "engineCode": "Coyote",
+         "capacity": 5,
+         "transmission": "10R80",
+         "fuel": "petrol"
+        },
+        {
+         "id": "mustang-s550-2-3-ecoboost",
+         "name": "2.3 EcoBoost",
+         "engineCode": "2.3 EcoBoost",
+         "capacity": 2.3,
+         "transmission": "10R80",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "honda",
+   "name": "Honda",
+   "nameAr": "هوندا",
+   "aliases": [
+    "hunda"
+   ],
+   "models": [
+    {
+     "id": "accord",
+     "name": "Accord",
+     "nameAr": "اكورد",
+     "aliases": [
+      "اكورد"
+     ],
+     "generations": [
+      {
+       "code": "CR",
+       "yearFrom": 2013,
+       "yearTo": 2017,
+       "variants": [
+        {
+         "id": "accord-cr-2-4",
+         "name": "2.4",
+         "engineCode": "K24W",
+         "capacity": 2.4,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "accord-cr-3-5-v6",
+         "name": "3.5 V6",
+         "engineCode": "J35Y",
+         "capacity": 3.5,
+         "transmission": "6-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "civic",
+     "name": "Civic",
+     "nameAr": "سيفيك",
+     "aliases": [
+      "سيفيك"
+     ],
+     "generations": [
+      {
+       "code": "FC",
+       "yearFrom": 2016,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "civic-fc-1-6",
+         "name": "1.6",
+         "engineCode": "R16",
+         "capacity": 1.6,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "civic-fc-2-0",
+         "name": "2.0",
+         "engineCode": "K20C2",
+         "capacity": 2,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cr-v",
+     "name": "CR-V",
+     "nameAr": "سي ار في",
+     "aliases": [
+      "crv"
+     ],
+     "generations": [
+      {
+       "code": "RW",
+       "yearFrom": 2017,
+       "yearTo": 2022,
+       "variants": [
+        {
+         "id": "cr-v-rw-2-4",
+         "name": "2.4",
+         "engineCode": "K24V",
+         "capacity": 2.4,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mitsubishi",
+   "name": "Mitsubishi",
+   "nameAr": "ميتسوبيشي",
+   "aliases": [
+    "mitsubushi",
+    "متسوبيشي"
+   ],
+   "models": [
+    {
+     "id": "pajero",
+     "name": "Pajero",
+     "nameAr": "باجيرو",
+     "aliases": [
+      "باجيرو"
+     ],
+     "generations": [
+      {
+       "code": "V80",
+       "yearFrom": 2007,
+       "yearTo": 2021,
+       "variants": [
+        {
+         "id": "pajero-v80-3-5-v6",
+         "name": "3.5 V6",
+         "engineCode": "6G74",
+         "capacity": 3.5,
+         "transmission": "5-speed automatic",
+         "fuel": "petrol"
+        },
+        {
+         "id": "pajero-v80-3-8-v6",
+         "name": "3.8 V6",
+         "engineCode": "6G75",
+         "capacity": 3.8,
+         "transmission": "5-speed automatic",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lancer",
+     "name": "Lancer",
+     "nameAr": "لانسر",
+     "aliases": [
+      "لانسر"
+     ],
+     "generations": [
+      {
+       "code": "CY",
+       "yearFrom": 2008,
+       "yearTo": 2017,
+       "variants": [
+        {
+         "id": "lancer-cy-1-6",
+         "name": "1.6",
+         "engineCode": "4A92",
+         "capacity": 1.6,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        },
+        {
+         "id": "lancer-cy-2-0",
+         "name": "2.0",
+         "engineCode": "4B11",
+         "capacity": 2,
+         "transmission": "CVT",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chevrolet",
+   "name": "Chevrolet",
+   "nameAr": "شيفروليه",
+   "aliases": [
+    "chevy",
+    "شفر",
+    "شفروليه"
+   ],
+   "models": [
+    {
+     "id": "tahoe",
+     "name": "Tahoe",
+     "nameAr": "تاهو",
+     "aliases": [
+      "تاهو"
+     ],
+     "generations": [
+      {
+       "code": "K2XX",
+       "yearFrom": 2015,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "tahoe-k2xx-5-3-v8",
+         "name": "5.3 V8",
+         "engineCode": "L83",
+         "capacity": 5.3,
+         "transmission": "6L80",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gmc",
+   "name": "GMC",
+   "nameAr": "جي ام سي",
+   "aliases": [
+    "جمس"
+   ],
+   "models": [
+    {
+     "id": "yukon",
+     "name": "Yukon",
+     "nameAr": "يوكن",
+     "aliases": [
+      "يوكن"
+     ],
+     "generations": [
+      {
+       "code": "K2XX",
+       "yearFrom": 2015,
+       "yearTo": 2020,
+       "variants": [
+        {
+         "id": "yukon-k2xx-5-3-v8",
+         "name": "5.3 V8",
+         "engineCode": "L83",
+         "capacity": 5.3,
+         "transmission": "6L80",
+         "fuel": "petrol"
+        },
+        {
+         "id": "yukon-k2xx-6-2-v8-denali",
+         "name": "6.2 V8 Denali",
+         "engineCode": "L86",
+         "capacity": 6.2,
+         "transmission": "8L90",
+         "fuel": "petrol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "id": "engine",
+   "en": "Engine",
+   "ar": "المحرك",
+   "icon": "engine",
+   "types": [
+    {
+     "id": "complete-engine",
+     "en": "Complete engine",
+     "ar": "مكينة كاملة",
+     "synonyms": [
+      "engine",
+      "motor",
+      "engine assembly",
+      "long block",
+      "مكينة",
+      "ماكينة",
+      "محرك",
+      "مكينه"
+     ]
+    },
+    {
+     "id": "cylinder-head",
+     "en": "Cylinder head",
+     "ar": "رأس السلندر",
+     "synonyms": [
+      "cylinder head",
+      "head",
+      "راس مكينة",
+      "سلندر هيد"
+     ]
+    },
+    {
+     "id": "turbocharger",
+     "en": "Turbocharger",
+     "ar": "تيربو",
+     "synonyms": [
+      "turbo",
+      "turbocharger",
+      "تيربو",
+      "تربو"
+     ]
+    },
+    {
+     "id": "intake-manifold",
+     "en": "Intake manifold",
+     "ar": "مشعب السحب",
+     "synonyms": [
+      "intake manifold",
+      "intake",
+      "manifold",
+      "منفولد"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "transmission",
+   "en": "Transmission",
+   "ar": "ناقل الحركة",
+   "icon": "gear",
+   "types": [
+    {
+     "id": "gearbox",
+     "en": "Gearbox / transmission",
+     "ar": "قير",
+     "synonyms": [
+      "gearbox",
+      "gear box",
+      "transmission",
+      "automatic transmission",
+      "tranny",
+      "gear",
+      "قير",
+      "جير",
+      "ناقل الحركة",
+      "جربوكس"
+     ]
+    },
+    {
+     "id": "torque-converter",
+     "en": "Torque converter",
+     "ar": "تورك كونفرتر",
+     "synonyms": [
+      "torque converter",
+      "converter",
+      "تورك"
+     ]
+    },
+    {
+     "id": "transfer-case",
+     "en": "Transfer case",
+     "ar": "صندوق التحويل",
+     "synonyms": [
+      "transfer case",
+      "transfer box",
+      "ترانسفير",
+      "تحويلة"
+     ]
+    },
+    {
+     "id": "valve-body",
+     "en": "Valve body / mechatronic",
+     "ar": "بلف بودي",
+     "synonyms": [
+      "valve body",
+      "mechatronic",
+      "conductor plate",
+      "بلف بودي"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "electrical",
+   "en": "Electrical & lighting",
+   "ar": "الكهرباء والإضاءة",
+   "icon": "bolt",
+   "types": [
+    {
+     "id": "alternator",
+     "en": "Alternator",
+     "ar": "دينمو",
+     "synonyms": [
+      "alternator",
+      "dynamo",
+      "دينمو",
+      "دينامو"
+     ]
+    },
+    {
+     "id": "starter-motor",
+     "en": "Starter motor",
+     "ar": "سلف",
+     "synonyms": [
+      "starter motor",
+      "starter",
+      "سلف",
+      "مارش"
+     ]
+    },
+    {
+     "id": "ecu",
+     "en": "Engine control unit (ECU)",
+     "ar": "كمبيوتر المكينة",
+     "synonyms": [
+      "ecu",
+      "ecm",
+      "engine computer",
+      "كمبيوتر",
+      "كنترول"
+     ]
+    },
+    {
+     "id": "headlight",
+     "en": "Headlight",
+     "ar": "شمعة أمامية",
+     "synonyms": [
+      "headlight",
+      "headlamp",
+      "head light",
+      "شمعة",
+      "اضاءة امامية",
+      "لايت"
+     ]
+    },
+    {
+     "id": "tail-light",
+     "en": "Tail light",
+     "ar": "شمعة خلفية",
+     "synonyms": [
+      "tail light",
+      "taillight",
+      "rear lamp",
+      "شمعة خلفية"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brakes",
+   "en": "Brakes",
+   "ar": "الفرامل",
+   "icon": "disc",
+   "types": [
+    {
+     "id": "brake-caliper",
+     "en": "Brake caliper",
+     "ar": "كاليبر فرامل",
+     "synonyms": [
+      "brake caliper",
+      "caliper",
+      "كاليبر"
+     ],
+     "safetyCritical": true
+    },
+    {
+     "id": "abs-module",
+     "en": "ABS pump / module",
+     "ar": "وحدة ABS",
+     "synonyms": [
+      "abs pump",
+      "abs module",
+      "abs",
+      "اي بي اس"
+     ],
+     "safetyCritical": true
+    },
+    {
+     "id": "brake-disc",
+     "en": "Brake disc",
+     "ar": "هوب فرامل",
+     "synonyms": [
+      "brake disc",
+      "rotor",
+      "disc",
+      "هوب",
+      "ديسك"
+     ],
+     "safetyCritical": true
+    }
+   ]
+  },
+  {
+   "id": "suspension",
+   "en": "Suspension & steering",
+   "ar": "التعليق والتوجيه",
+   "icon": "spring",
+   "types": [
+    {
+     "id": "shock-absorber",
+     "en": "Shock absorber / strut",
+     "ar": "مساعد",
+     "synonyms": [
+      "shock absorber",
+      "shock",
+      "strut",
+      "damper",
+      "مساعد",
+      "مساعدات",
+      "ممتص صدمات"
+     ],
+     "safetyCritical": true
+    },
+    {
+     "id": "air-suspension",
+     "en": "Air suspension strut",
+     "ar": "مساعد هوائي",
+     "synonyms": [
+      "air suspension",
+      "airmatic",
+      "air strut",
+      "مساعد هوا"
+     ],
+     "safetyCritical": true
+    },
+    {
+     "id": "control-arm",
+     "en": "Control arm",
+     "ar": "مقص",
+     "synonyms": [
+      "control arm",
+      "wishbone",
+      "مقص",
+      "مقصات"
+     ],
+     "safetyCritical": true
+    },
+    {
+     "id": "steering-rack",
+     "en": "Steering rack",
+     "ar": "علبة دركسون",
+     "synonyms": [
+      "steering rack",
+      "rack and pinion",
+      "steering box",
+      "دركسون",
+      "علبة دركسون"
+     ],
+     "safetyCritical": true
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "en": "Body parts",
+   "ar": "قطع الهيكل",
+   "icon": "car",
+   "types": [
+    {
+     "id": "front-bumper",
+     "en": "Front bumper",
+     "ar": "صدام أمامي",
+     "synonyms": [
+      "front bumper",
+      "bumper",
+      "صدام",
+      "دعامية"
+     ]
+    },
+    {
+     "id": "door",
+     "en": "Door",
+     "ar": "باب",
+     "synonyms": [
+      "door",
+      "باب",
+      "ابواب"
+     ]
+    },
+    {
+     "id": "bonnet",
+     "en": "Bonnet / hood",
+     "ar": "كبوت",
+     "synonyms": [
+      "bonnet",
+      "hood",
+      "كبوت",
+      "غطاء المحرك"
+     ]
+    },
+    {
+     "id": "side-mirror",
+     "en": "Side mirror",
+     "ar": "مراية جانبية",
+     "synonyms": [
+      "side mirror",
+      "wing mirror",
+      "mirror",
+      "مراية",
+      "مرايه"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cooling",
+   "en": "Cooling & A/C",
+   "ar": "التبريد والمكيف",
+   "icon": "fan",
+   "types": [
+    {
+     "id": "radiator",
+     "en": "Radiator",
+     "ar": "رديتر",
+     "synonyms": [
+      "radiator",
+      "رديتر",
+      "راديتر"
+     ]
+    },
+    {
+     "id": "ac-compressor",
+     "en": "A/C compressor",
+     "ar": "كمبروسر مكيف",
+     "synonyms": [
+      "ac compressor",
+      "a/c compressor",
+      "compressor",
+      "كمبروسر",
+      "ضاغط المكيف"
+     ]
+    },
+    {
+     "id": "condenser",
+     "en": "A/C condenser",
+     "ar": "مكثف المكيف",
+     "synonyms": [
+      "condenser",
+      "كوندنسر",
+      "مكثف"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wheels",
+   "en": "Wheels",
+   "ar": "الجنوط",
+   "icon": "wheel",
+   "types": [
+    {
+     "id": "alloy-wheel",
+     "en": "Alloy wheel",
+     "ar": "جنط",
+     "synonyms": [
+      "alloy wheel",
+      "rims",
+      "rim",
+      "alloy",
+      "wheel",
+      "جنط",
+      "جنوط"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interior",
+   "en": "Interior",
+   "ar": "الداخلية",
+   "icon": "seat",
+   "types": [
+    {
+     "id": "seat",
+     "en": "Seat",
+     "ar": "كرسي",
+     "synonyms": [
+      "seat",
+      "seats",
+      "كرسي",
+      "كراسي",
+      "مقعد"
+     ]
+    },
+    {
+     "id": "dashboard",
+     "en": "Instrument cluster",
+     "ar": "طبلون / عداد",
+     "synonyms": [
+      "instrument cluster",
+      "dashboard",
+      "cluster",
+      "speedometer",
+      "طبلون",
+      "عداد"
+     ]
+    },
+    {
+     "id": "airbag",
+     "en": "Airbag module",
+     "ar": "وسادة هوائية",
+     "synonyms": [
+      "airbag",
+      "air bag",
+      "ايرباق",
+      "وسادة هوائية"
+     ],
+     "safetyCritical": true
+    }
+   ]
+  }
+ ],
+ "emirates": [
+  {
+   "id": "sharjah",
+   "en": "Sharjah",
+   "ar": "الشارقة",
+   "aliases": [
+    "shj",
+    "sharja",
+    "sharjah",
+    "الشارقة",
+    "شارقة"
+   ],
+   "areas": [
+    {
+     "id": "al-sajaa",
+     "en": "Al Sajaa Industrial Area",
+     "ar": "منطقة الصجعة الصناعية",
+     "lat": 25.3285,
+     "lng": 55.6385
+    },
+    {
+     "id": "industrial-area-shj",
+     "en": "Sharjah Industrial Area",
+     "ar": "المنطقة الصناعية بالشارقة",
+     "lat": 25.3101,
+     "lng": 55.4152
+    }
+   ]
+  },
+  {
+   "id": "dubai",
+   "en": "Dubai",
+   "ar": "دبي",
+   "aliases": [
+    "dxb",
+    "dubai",
+    "dubay",
+    "دبي"
+   ],
+   "areas": [
+    {
+     "id": "al-quoz",
+     "en": "Al Quoz Industrial",
+     "ar": "القوز الصناعية",
+     "lat": 25.1355,
+     "lng": 55.2329
+    },
+    {
+     "id": "ras-al-khor",
+     "en": "Ras Al Khor Industrial",
+     "ar": "رأس الخور الصناعية",
+     "lat": 25.1817,
+     "lng": 55.3653
+    }
+   ]
+  },
+  {
+   "id": "abu-dhabi",
+   "en": "Abu Dhabi",
+   "ar": "أبوظبي",
+   "aliases": [
+    "auh",
+    "abu dhabi",
+    "abudhabi",
+    "ابوظبي",
+    "ابو ظبي"
+   ],
+   "areas": [
+    {
+     "id": "mussafah",
+     "en": "Mussafah Industrial",
+     "ar": "مصفح الصناعية",
+     "lat": 24.3545,
+     "lng": 54.5051
+    }
+   ]
+  },
+  {
+   "id": "ajman",
+   "en": "Ajman",
+   "ar": "عجمان",
+   "aliases": [
+    "ajman",
+    "عجمان"
+   ],
+   "areas": [
+    {
+     "id": "ajman-industrial",
+     "en": "Ajman Industrial Area",
+     "ar": "عجمان الصناعية",
+     "lat": 25.3965,
+     "lng": 55.4795
+    }
+   ]
+  },
+  {
+   "id": "umm-al-quwain",
+   "en": "Umm Al Quwain",
+   "ar": "أم القيوين",
+   "aliases": [
+    "uaq",
+    "umm al quwain",
+    "ام القيوين"
+   ],
+   "areas": [
+    {
+     "id": "uaq-industrial",
+     "en": "UAQ Industrial Area",
+     "ar": "أم القيوين الصناعية",
+     "lat": 25.5279,
+     "lng": 55.6213
+    }
+   ]
+  },
+  {
+   "id": "ras-al-khaimah",
+   "en": "Ras Al Khaimah",
+   "ar": "رأس الخيمة",
+   "aliases": [
+    "rak",
+    "ras al khaimah",
+    "راس الخيمة"
+   ],
+   "areas": [
+    {
+     "id": "rak-industrial",
+     "en": "Al Jazeera Al Hamra Industrial",
+     "ar": "الجزيرة الحمراء الصناعية",
+     "lat": 25.6975,
+     "lng": 55.7891
+    }
+   ]
+  },
+  {
+   "id": "fujairah",
+   "en": "Fujairah",
+   "ar": "الفجيرة",
+   "aliases": [
+    "fuj",
+    "fujairah",
+    "الفجيرة",
+    "فجيرة"
+   ],
+   "areas": [
+    {
+     "id": "fujairah-industrial",
+     "en": "Fujairah Industrial Area",
+     "ar": "الفجيرة الصناعية",
+     "lat": 25.1408,
+     "lng": 56.3324
+    }
+   ]
+  }
+ ]
+}
